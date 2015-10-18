@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lbl_reg_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GCM Registration ID: " />
+
+    <EditText
+        android:id="@+id/txt_reg_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_reg_id"/>
+
+    <Button
+        android:id="@+id/btn_reg_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_reg_id"
+        android:text="Get Registration ID"
+        android:onClick="onClickRegDevice" />
+
+    <!--  <ImageView
+         android:layout_width="600dp"
+         android:layout_height="600dp"
+         android:layout_marginTop="100dp"
+         android:id="@+id/imageView"
+         android:src="@drawable/logo"
+         android:layout_centerVertical="true" />
+
+
+
+         <TextView
+             android:id="@+id/textView_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Name"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:layout_marginLeft="94dp"
+             android:layout_marginStart="94dp"
+             android:layout_marginTop="209dp"
+             android:layout_alignTop="@+id/imageView"
+             android:layout_toRightOf="@+id/imageView"
+             android:layout_toEndOf="@+id/imageView" />
+
+         <EditText
+             android:id="@+id/name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/textView_name"
+             android:layout_below="@+id/textView_name"
+             android:ems="10" />
+
+         <TextView
+             android:id="@+id/textView_surname"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/name"
+             android:layout_below="@+id/name"
+             android:text="Surname"
+             android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+         <EditText
+             android:id="@+id/surname"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/textView_surname"
+             android:layout_centerHorizontal="true"
+             android:layout_alignLeft="@+id/textView_name"
+             android:ems="10" />
+
+     <TextView
+         android:id="@+id/textView_usrname"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/name"
+         android:layout_below="@+id/surname"
+         android:text="Username"
+         android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+     <EditText
+         android:id="@+id/usrname"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView_usrname"
+         android:layout_centerHorizontal="true"
+         android:layout_alignLeft="@+id/textView_name"
+         android:ems="10" />
+
+     <TextView
+         android:id="@+id/textView_pass"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/name"
+         android:layout_below="@+id/usrname"
+         android:text="Password"
+         android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+     <EditText
+         android:id="@+id/password"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView_pass"
+         android:layout_centerHorizontal="true"
+         android:layout_alignLeft="@+id/textView_name"
+         android:ems="10" />
+
+         <Button
+             android:id="@+id/register"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Register"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:layout_below="@+id/imageView"
+             android:layout_alignRight="@+id/textView_usrname"
+             android:layout_alignEnd="@+id/textView_usrname" /> -->
+
+</RelativeLayout>

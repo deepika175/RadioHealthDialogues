@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3" >
+
+    <LinearLayout
+         android:layout_height="fill_parent"
+         android:layout_width="0dp"
+         android:layout_weight="1"
+         android:orientation="vertical"
+         android:gravity="left"
+         android:background="#89CFF0"
+         android:layout_gravity="center_vertical"
+         android:padding="60dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/button_prepare"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/prepare_button"
+                android:textAppearance= "?android:attr/textAppearanceLarge"
+                android:layout_above="@+id/button_broadcast"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+            android:id="@+id/button_broadcast"
+            android:text="Broadcast"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/broadcast_button"
+            android:textAppearance= "?android:attr/textAppearanceLarge"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/button_prepare"
+                android:layout_alignStart="@+id/button_prepare" />
+
+            <ImageButton
+                android:id="@+id/button_library"
+                android:text="History"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/library_button"
+                android:textAppearance= "?android:attr/textAppearanceLarge"
+                android:layout_marginTop="95dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/button_prepare"
+                android:layout_alignStart="@+id/button_prepare" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+    </LinearLayout>
+
+</LinearLayout>
+

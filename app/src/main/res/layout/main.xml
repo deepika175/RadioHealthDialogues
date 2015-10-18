@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:text="TextView"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/main_textView_log">
+
+    </TextView>
+
+    <ListView
+        android:id="@+id/main_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="217dp"
+        android:paddingBottom="20dp">
+
+    </ListView>
+
+    <TextView android:text="TestDatabase"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/main_dbtextview">
+
+    </TextView>
+
+</LinearLayout>

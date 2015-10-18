@@ -1,0 +1,66 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Doxyfile
+* android-ngn-stack.tag
+* default.properties
+* installdox.sh
+* proguard.cfg
+* rtf/
+* rtf/FreeSans.ttf
+* rtf/classorg_1_1doubango_1_1ngn_1_1events_1_1_ngn_event_args.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1events_1_1_ngn_invite_event_args.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1events_1_1_ngn_stack_event_args.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1events_1_1_ngn_string_event_args.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1media_1_1_ngn_proxy_audio_consumer.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1media_1_1_ngn_proxy_audio_producer.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1media_1_1_ngn_proxy_plugin.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1media_1_1_ngn_proxy_video_consumer.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1media_1_1_ngn_proxy_video_producer.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1services_1_1impl_1_1_ngn_base_service.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1services_1_1impl_1_1_ngn_contact_service.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1services_1_1impl_1_1_ngn_http_client_service.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1services_1_1impl_1_1_ngn_network_service.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1services_1_1impl_1_1_ngn_sound_service.png
+* rtf/classorg_1_1doubango_1_1ngn_1_1services_1_1impl_1_1_ngn_storage_service.png
+* rtf/refman.rtf
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => androidngnstack/src/main/AndroidManifest.xml
+* assets/ => androidngnstack/src/main/assets
+* libs/armeabi-v7a/libplugin_audio_opensles.so => androidngnstack/src/main/jniLibs/armeabi-v7a/libplugin_audio_opensles.so
+* libs/armeabi-v7a/libtinyWRAP.so => androidngnstack/src/main/jniLibs/armeabi-v7a/libtinyWRAP.so
+* libs/armeabi-v7a/libtinyWRAP_neon.so => androidngnstack/src/main/jniLibs/armeabi-v7a/libtinyWRAP_neon.so
+* libs/armeabi-v7a/libutils_armv5te.so => androidngnstack/src/main/jniLibs/armeabi-v7a/libutils_armv5te.so
+* libs/armeabi/libplugin_audio_opensles.so => androidngnstack/src/main/jniLibs/armeabi/libplugin_audio_opensles.so
+* libs/armeabi/libtinyWRAP.so => androidngnstack/src/main/jniLibs/armeabi/libtinyWRAP.so
+* libs/simple-xml-2.3.4.jar => androidngnstack/libs/simple-xml-2.3.4.jar
+* libs/x86/libplugin_audio_opensles.so => androidngnstack/src/main/jniLibs/x86/libplugin_audio_opensles.so
+* libs/x86/libtinyWRAP.so => androidngnstack/src/main/jniLibs/x86/libtinyWRAP.so
+* res/ => androidngnstack/src/main/res/
+* src/ => androidngnstack/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

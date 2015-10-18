@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:weightSum="4">
+
+    <TextView android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_userTextiew"
+        android:layout_weight="4"></TextView>
+
+    <ToggleButton android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:id="@+id/button_listener"
+        android:textOff="Mute"
+        android:textOn= "Unmute">
+    </ToggleButton>
+
+    <!-- <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:id="@+id/button_mute"
+        android:text="unmute">
+
+    </Button> -->
+
+</LinearLayout>
